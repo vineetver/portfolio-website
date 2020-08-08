@@ -4044,7 +4044,7 @@ input, select, textarea {
 			-moz-align-self: center;
 			-webkit-align-self: center;
 			-ms-align-self: center;
-			align-self: center;
+			align-self: c;
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
@@ -4055,7 +4055,6 @@ input, select, textarea {
 			flex-shrink: 1;
 			width: 65%;
 			max-width: 64rem;
-			margin: 0 auto;
 		}
 
 		.spotlight.style1 .image {
@@ -4087,7 +4086,11 @@ input, select, textarea {
 				left: 0;
 				width: 100%;
 				height: 100%;
-				border-radius: 0;
+				padding-left: 64px;
+				padding-top: 44px;
+				padding-bottom: 44px;
+				padding-right: 64px;
+				border-radius: 10px;
 			}
 
 		@media screen and (max-width: 1680px) {

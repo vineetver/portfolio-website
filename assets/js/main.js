@@ -4,7 +4,7 @@
 		$body = $('body'),
 		$wrapper = $('#wrapper');
 
-	// Breakpoints.
+	// breakpoints
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
 			large:    [ '981px',   '1280px' ],
@@ -14,7 +14,7 @@
 			xxsmall:  [ null,      '360px'  ]
 		});
 
-	// Play initial animations on page load.
+	//  initial animations on pageload
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
@@ -22,11 +22,11 @@
 		});
 
 
-	// Smooth scroll.
+	// Smooth scroll
 		$('.smooth-scroll').scrolly();
 		$('.smooth-scroll-middle').scrolly({ anchor: 'middle' });
 
-	// Wrapper.
+	// wrapper
 		$wrapper.children()
 			.scrollex({
 				top:		'30vh',
@@ -50,7 +50,7 @@
 				}
 			});
 
-	// Items.
+	// items animation
 		$('.items')
 			.scrollex({
 				top:		'30vh',
@@ -77,7 +77,7 @@
 			.children()
 				.wrapInner('<div class="inner"></div>');
 
-	// Gallery.
+	// gallery scrollex
 		$('.gallery')
 			.wrapInner('<div class="inner"></div>')
 			.prepend(browser.mobile ? '' : '<div class="forward"></div><div class="backward"></div>')
@@ -104,7 +104,6 @@
 				}
 			})
 			.children('.inner')
-				//.css('overflow', 'hidden')
 				.css('overflow-y', browser.mobile ? 'visible' : 'hidden')
 				.css('overflow-x', browser.mobile ? 'scroll' : 'hidden')
 				.scrollLeft(0);
