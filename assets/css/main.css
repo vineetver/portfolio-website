@@ -4654,10 +4654,10 @@ input, select, textarea {
 
 		}
 
-/* Wrapper style1 */
+/*-------------- Wrapper style1 ------------*/
 
 	.wrapper.style1 > .inner {
-		padding: 0rem 3.5rem 5rem 3.5rem ;
+		padding: 4rem 3.5rem 5rem 3.5rem ;
 		margin: 0 auto;
 		max-width: 100%;
 		width: 64rem;
@@ -4669,12 +4669,18 @@ input, select, textarea {
 
 		.wrapper.style1 > .inner.small {
 			width: 32rem;
+			padding-top: 3.25rem;
+		}
+
+		.wrapper.style1 > .inner h2 {
+			padding-top: 3.25rem;
+
 		}
 
 	@media screen and (max-width: 1680px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0rem 2.5rem 3rem 2.5rem ;
+			padding: 3.25rem 2.5rem 3rem 2.5rem ;
 		}
 
 	}
@@ -4682,7 +4688,7 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0rem 4rem 2rem 4rem ;
+			padding: 3.25rem 4rem 2rem 4rem ;
 		}
 
 	}
@@ -4690,7 +4696,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0rem 3rem 2.5rem 3rem ;
+			padding: 3.25rem 3rem 2.5rem 3rem ;
 		}
 
 	}
@@ -4698,12 +4704,22 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0rem 2rem 1rem 2rem ;
+			padding: 3.25rem 2rem 1rem 2rem ;
 		}
 
 	}
 
-/* Items transitions */
+	.wrapper.style1 > .inner.small h2 {
+			padding-top: 0px;
+
+	}
+
+	.wrapper.style1 > .inner > .icons {
+		padding-top: 0rem;
+
+	}
+
+/*------------- Items transitions -----------------*/
 
 	.items.onload-fade-in > * > .inner {
 		-moz-transition: opacity 0.75s ease-in-out;
@@ -4805,7 +4821,7 @@ input, select, textarea {
 		opacity: 0;
 	}
 
-/* Items rowstyle */
+/*--------------------- Items rowstyle -------------------------*/
 
 	.items.stylerow {
 		display: -moz-flex;
