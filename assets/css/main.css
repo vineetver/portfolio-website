@@ -4654,7 +4654,7 @@ input, select, textarea {
 
 		}
 
-/* Wrapper style1 */
+/*-------------- Wrapper style1 ------------*/
 
 	.wrapper.style1 > .inner {
 		padding: 7rem 3.5rem 5rem 3.5rem ;
@@ -4670,7 +4670,7 @@ input, select, textarea {
 
 		.wrapper.style1 > .inner.small {
 			width: 32rem;
-			padding-top: 0;
+			padding-top: 0rem;
 		}
 
 		.wrapper.style1 > .inner h2 {
@@ -4720,7 +4720,7 @@ input, select, textarea {
 
 	}
 
-/* Items transitions */
+/*------------- Items transitions -----------------*/
 
 	.items.onload-fade-in > * > .inner {
 		-moz-transition: opacity 0.75s ease-in-out;
