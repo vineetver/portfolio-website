@@ -110,7 +110,7 @@ input, select, textarea {
 /* typography from gists */
 
 	html {
-		font-size: 18pt;
+		font-size: 16pt;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -2999,7 +2999,7 @@ input, select, textarea {
 		background-color: transparent;
 	}
 
-/* banner gradient */
+/* Banner gradient */
 	
 	.banner {
 		background: #8e9eab;  /* fallback for old browsers */
@@ -3455,8 +3455,8 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			width: 21rem;
-			height: 21rem;
+			width: 19rem;
+			height: 19rem;
 			border-radius: 100%;
 			margin: 0 3.5rem 2rem 0;
 		}
